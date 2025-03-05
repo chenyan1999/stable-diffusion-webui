@@ -34,6 +34,7 @@ if s.startswith("XX"):
 ```
 Fix up if "http" in ...: to be more sensible startswiths
 ```
+你也可以输入其他内容，如果您使用的是 TRACE 或 CoEdPilot，请勿输入 ASCII 以外的字符。
 
 ## 验证修改
 请运行以下命令验证修改：
