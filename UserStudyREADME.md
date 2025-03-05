@@ -1,6 +1,13 @@
 # 用户实验介绍
 
-# 任务介绍
+## 环境配置
+请确保你已经安装了 `pickle` 库，如果没有安装，请运行以下命令安装：
+```bash
+pip install pickle
+```
+`pickle` 库将用于测试
+
+## 任务介绍
 我们注意到当前仓库中存在一些不够安全高效的代码，请帮助我们进行改进。在判断一个字符串是否以 XX 开头时，当前代码使用的判断是：
 ```python
 if "XX" in s:
@@ -21,13 +28,31 @@ if s.startswith("XX"):
 
 如果你觉得修改的次数不够，可以继续修改，直到实现编辑目标（即通过 [验证修改](#验证修改) 中的测试）
 
-# 验证修改
+## 编辑描述
+当你需要输入编辑描述时，你可以直接复制以下内容：
+
+```
+Fix up if "http" in ...: to be more sensible startswiths
+```
+
+## 验证修改
 请运行以下命令验证修改：
 ```bash
 python -m test.test
 ```
 
 当修改正确时，测试会输出以下信息：
+```bash
+Test 1 passed.
+Test 2 passed.
+Test 3 passed.
+Test 4 passed.
+Test 5 passed.
+Test 6 passed.
+Test 7 passed.
+Test 8 passed.
+All tests passed
+```
 
 
 
