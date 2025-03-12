@@ -22,6 +22,11 @@ if s.startswith("XX"):
 
 ![image](./images/init_edit.png)
 
+你可以复制以下内容实现首次修改：
+```python
+            if file.startswith("http"):
+```
+
 请你在完成所示的修改后，继续对项目进行 **另外 7 处** 修改。你可以打开源代码管理工具，查看修改的数量，确保你确实完成了 7 处修改，如图所示：
 
 ![image](./images/git_diff.png)
