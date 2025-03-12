@@ -22,7 +22,7 @@ if s.startswith("XX"):
 
 ![image](./images/init_edit.png)
 
-你可以复制以下内容实现首次修改：
+**你可以复制以下内容实现首次修改：**
 ```python
             if file.startswith("http"):
 ```
